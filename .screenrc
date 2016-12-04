@@ -18,5 +18,7 @@ bindkey "^[[1;6I" prev
 termcapinfo rxvt-unicode ti@:te@
 termcapinfo rxvt ti@:te@
 termcapinfo rxvt 'hs:ts=\E]2;:fs=07:ds=\E]2;screen07'
+# Enable mouse scrolling and scroll bar history scrolling
+termcapinfo xterm* ti@:te@
 
 vbell off
